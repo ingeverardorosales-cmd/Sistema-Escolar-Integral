@@ -1750,7 +1750,7 @@ function PortalDocente({ onBack }) {
         },
         'nVJhbohgdIkttQDsK'
       );
-      showAlert("success", "✅ Tu Evento se guardo con exito y correo enviado correctamente.");
+      showAlert("success", "✅ Evento guardado y correo enviado correctamente.");
     } catch (emailErr) {
       console.error("Error en EmailJS:", emailErr);
       // El evento SÍ se guardó; solo avisamos del correo
